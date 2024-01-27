@@ -1,0 +1,28 @@
+/* HEADER */
+
+header {
+  margin-bottom: 5px;
+}
+
+header > div {
+  background-color: white;
+  height: 80px;
+  padding: 10px 15px;
+  font-size: 24px;
+}
+
+header nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav > div:last-of-type {
+  display: flex;
+  gap: 15px;
+}
+
+header img {
+  height: 50px;
+}
